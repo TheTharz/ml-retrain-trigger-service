@@ -1,0 +1,20 @@
+task_id,task_name,section_id,section_name
+TASK-001,Tourist Visa Issuance,SEC-001,Visa Services
+TASK-002,Business Registration,SEC-001,Visa Services
+TASK-003,Tourist Attraction Information,SEC-002,Tourist Information Services
+TASK-004,Tour Guide Registration,SEC-002,Tourist Information Services
+TASK-005,Hotel License Registration,SEC-002,Tourist Information Services
+TASK-006,Star Rating Certification,SEC-002,Tourist Information Services
+TASK-007,Tourist Lodge Permit Renewal,SEC-003,Accommodation & Hospitality Services
+TASK-008,Grievance Handling (Accommodation),SEC-003,Accommodation & Hospitality Services
+TASK-009,Travel Agency Accreditation,SEC-003,Accommodation & Hospitality Services
+TASK-010,Tourist Vehicle Permit Issuance,SEC-004,Transportation & Travel Services
+TASK-011,Airport Shuttle Service Registration,SEC-004,Transportation & Travel Services
+TASK-012,Boat Safari & Adventure Permit,SEC-004,Transportation & Travel Services
+TASK-013,Cultural Event Management,SEC-005,Events & Cultural Tourism
+TASK-014,Festival Permit Issuance,SEC-005,Events & Cultural Tourism
+TASK-015,Heritage Site Tour Coordination,SEC-005,Events & Cultural Tourism
+TASK-016,Eco-Tourism Certification,SEC-006,Sustainable Tourism & Environment
+TASK-017,Wildlife Safari Authorization,SEC-006,Sustainable Tourism & Environment
+TASK-018,Marine Tourism Permit,SEC-006,Sustainable Tourism & Environment
+TASK-019,Green Tourism Initiative Support,SEC-006,Sustainable Tourism & Environment
