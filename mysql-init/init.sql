@@ -18,10 +18,11 @@ CREATE TABLE IF NOT EXISTS bookings (
 
 -- Staffing table
 CREATE TABLE IF NOT EXISTS staffing (
-    date DATE PRIMARY KEY,
+    date DATE NOT NULL,
     section_id VARCHAR(50) NOT NULL,
     employees_on_duty INT NOT NULL,
-    total_task_time_minutes DOUBLE NOT NULL
+    total_task_time_minutes DOUBLE NOT NULL,
+    PRIMARY KEY (date, section_id)
 );
 
 -- Tasks table

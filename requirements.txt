@@ -1,3 +1,6 @@
 kafka-python
 pandas
 scikit-learn
+mysql-connector-python
+requests
+python-json-logger

@@ -34,6 +34,8 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+    ports:
+      - '9092:9092'
 
   connect:
     image: debezium/connect:2.2
@@ -53,12 +55,3 @@ services:
       KEY_CONVERTER: org.apache.kafka.connect.json.JsonConverter
       VALUE_CONVERTER: org.apache.kafka.connect.json.JsonConverter
       DATABASE_HISTORY_KAFKA_TOPIC: schema-changes.testdb
-
-  # retrainer:
-  #   build: ./retraining-service
-  #   depends_on:
-  #     - kafka
-  #   environment:
-  #     KAFKA_BOOTSTRAP_SERVERS: kafka:9092
-  #     KAFKA_TOPIC: mysql_server.testdb.bookings
-  #     RETRAIN_THRESHOLD: 1000
